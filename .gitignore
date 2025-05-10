@@ -1,0 +1,42 @@
+# ─────── Node.js / フロントエンド共通 ───────
+# 依存パッケージ
+node_modules/
+
+# ビルド成果物
+dist/
+build/
+.vite/
+
+# 環境変数ファイル
+.env
+.env.local
+.env.*.local
+
+# ログファイル
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# テストカバレッジ
+coverage/
+
+# ─────── OS / エディタ固有 ───────
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# IDEA系
+.idea/
+
+# ─────── Docker / infraリポジトリ向け ───────
+# Compose オーバーライド用ファイル
+docker-compose.override.yml
+
+# ボリュームの永続化データ（任意で）
+# db_data/
